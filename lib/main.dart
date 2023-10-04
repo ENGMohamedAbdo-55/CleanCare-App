@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'features/Auth/presentation/views/screens/welcome_view.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,15 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
     
-      home: MyHomePage(),
+      home: WelcomeView(),
     );
-  }
-}
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return  Scaffold(body: Center(child:Image.asset("assets/images/welcome1.png") ));
   }
 }
