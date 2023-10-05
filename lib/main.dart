@@ -1,4 +1,4 @@
-import 'package:cleancare_app/features/Auth/presentation/views/screens/reset_pass_view.dart';
+import 'package:cleancare_app/features/Auth/presentation/views/screens/foreget_pass_view.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
     debugShowCheckedModeBanner: false,
-      home: ResetPassView(),
+      home:ForegetPassView (),
     );
   }
 }

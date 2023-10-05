@@ -5,8 +5,8 @@ import 'package:cleancare_app/features/Auth/presentation/views/widgets/custom_bu
 import 'package:cleancare_app/features/Auth/presentation/views/widgets/custom_txt_field.dart';
 import 'package:flutter/material.dart';
 
-class ResetPassView extends StatelessWidget {
-  const ResetPassView({super.key});
+class ForegetPassView extends StatelessWidget {
+  const ForegetPassView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class ResetPassView extends StatelessWidget {
             ),
             Center(
               child: Text(
-                      'Reset Password',
+                      'Forget Password?',
                       style: TextStyle(
                           color: AppColors.mainColor,
                           fontSize: 34,
@@ -29,31 +29,38 @@ class ResetPassView extends StatelessWidget {
                     ),
             ),
 Image.asset(
-              Assets.resetPassImg,
-              height: 270,
-              width: 300,
+              Assets.forgetPassImg,
+              height: 300,
+              width: 280,
            
             ),
+            const SizedBox(height: 15,),
  Center(
               child: Text(
-                      'Enter your new password and confirm it',
+                      'Don’t worry it happesns, please enter ',
                       style: TextStyle(
                           color: AppColors.grey,
                           fontSize: 19,
                           fontWeight: FontWeight.w500),
                     ),
             ),
-            const SizedBox(height: 20,),
+ Center(
+              child: Text(
+                      'your email address',
+                      style: TextStyle(
+                          color: AppColors.grey,
+                          fontSize: 19,
+                          fontWeight: FontWeight.w500),
+                    ),
+            ),
+            const SizedBox(height: 27,),
  const Padding(
    padding:  EdgeInsets.symmetric(horizontal: 30.0),
-   child: CustomTextField(hintTxt: "Password"),
+   child: CustomTextField(hintTxt: "Enter Your Email"),
  ),
- const SizedBox(height: 15,),
- const Padding(
-   padding:  EdgeInsets.symmetric(horizontal: 30.0),
-   child: CustomTextField(hintTxt: "Confirm Password"),
- ),
-  const SizedBox(height: 15,),
+ const SizedBox(height: 10,),
+ 
+  const SizedBox(height: 7,),
  Padding(
    padding: const EdgeInsets.symmetric(horizontal: 40.0),
    child: CustomMainButton(color: AppColors.mainColor, title: "Submit", titleColor: AppColors.white),
