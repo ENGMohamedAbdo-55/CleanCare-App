@@ -5,8 +5,8 @@ import 'package:cleancare_app/features/Auth/presentation/views/widgets/custom_bu
 import 'package:cleancare_app/features/Auth/presentation/views/widgets/custom_txt_field.dart';
 import 'package:flutter/material.dart';
 
-class ForegetPassView extends StatelessWidget {
-  const ForegetPassView({super.key});
+class ForgetPassView extends StatelessWidget {
+  const ForgetPassView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +63,7 @@ Image.asset(
   const SizedBox(height: 7,),
  Padding(
    padding: const EdgeInsets.symmetric(horizontal: 40.0),
-   child: CustomMainButton(color: AppColors.mainColor, title: "Submit", titleColor: AppColors.white),
+   child: CustomMainButton(color: AppColors.mainColor, title: "Send", titleColor: AppColors.white),
  )
 
       ],),

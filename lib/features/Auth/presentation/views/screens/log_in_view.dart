@@ -27,7 +27,7 @@ class _LogInViewState extends State<LogInView> {
               Assets.logo1,
               height: 150,
               width: 50,
-              fit: BoxFit.fill,
+           
             ),
             const Row(
               mainAxisAlignment: MainAxisAlignment.start,
