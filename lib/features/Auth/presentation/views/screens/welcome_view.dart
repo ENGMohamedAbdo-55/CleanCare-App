@@ -11,16 +11,18 @@ class WelcomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
   backgroundColor: AppColors.mainColor,
-  body: Column(
-    crossAxisAlignment: CrossAxisAlignment.center,
+  body: ListView(
+  physics: const BouncingScrollPhysics(),
     children: [
       Image.asset(Assets.welcome1),
       Expanded(
+        
         child: Container(
+        height: 350,
           decoration: BoxDecoration(
               borderRadius: const BorderRadius.only(
-                topLeft: Radius.circular(42),
-                topRight: Radius.circular(42),
+                topLeft: Radius.circular(45),
+                topRight: Radius.circular(45),
               ),
               color: AppColors.white),
           child: Center(
@@ -29,7 +31,7 @@ class WelcomeView extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(
-                    height: 42,
+                    height: 35,
                   ),
                   Text(
                     'Welcome To CleanCare',
@@ -50,14 +52,15 @@ class WelcomeView extends StatelessWidget {
                       titleColor: AppColors.white,
                       color: AppColors.mainColor,
                       title: "Log In",
-                      height: 40),
+                     ),
                   const SizedBox(
                     height: 20,
                   ),
+              
                   InkWell(
                     onTap: () {},
                     child: Container(
-                      height: 40,
+                      height: 50,
                       width: double.infinity,
                       decoration: BoxDecoration(
                         border: Border.all(color: AppColors.mainColor),
@@ -76,7 +79,7 @@ class WelcomeView extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    height: 20,
+                    height: 12,
                   ),
                   Text(
                     'Continue as a Guest',
@@ -92,7 +95,8 @@ class WelcomeView extends StatelessWidget {
         ),
       )
     ],
-  ),
+  )
+  
 );
   }
 }

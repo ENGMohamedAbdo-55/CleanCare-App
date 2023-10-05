@@ -5,18 +5,18 @@ class CustomMainButton extends StatelessWidget {
     Key? key,
     required this.color,
     required this.title,
-    required this.height,
+    
     required this.titleColor,
   }) : super(key: key);
   final Color color;
   final String title;
   final Color titleColor;
-  final double height;
+
 
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      height: height,
+      height: 50,
       minWidth: double.infinity,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(15),

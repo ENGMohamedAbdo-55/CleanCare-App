@@ -1,6 +1,6 @@
+import 'package:cleancare_app/features/Auth/presentation/views/screens/log_in_view.dart';
 import 'package:flutter/material.dart';
 
-import 'features/Auth/presentation/views/screens/welcome_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-    
-      home: WelcomeView(),
+    debugShowCheckedModeBanner: false,
+      home: LogInView(),
     );
   }
 }
