@@ -1,7 +1,7 @@
 import 'package:cleancare_app/core/utils/app_assets.dart';
 import 'package:cleancare_app/core/utils/app_colors.dart';
 import 'package:cleancare_app/features/Auth/presentation/views/widgets/custom_button.dart';
-import 'package:cleancare_app/features/Auth/presentation/views/widgets/custom_txt_field.dart';
+
 import 'package:cleancare_app/features/Auth/presentation/views/widgets/otp_item.dart';
 import 'package:flutter/material.dart';
 
