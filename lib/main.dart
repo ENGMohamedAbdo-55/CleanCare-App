@@ -27,6 +27,4 @@ class MyApp extends StatelessWidget {
 //EmailVerificationView
 //LogInView
 //ForgetPassView
-
-
 //https://www.figma.com/file/rZuWb269AqSIkgCcmmXoKW/CleanCare-App?type=design&node-id=0%3A1&mode=design&t=1T1cWuYs6loM1xyt-1

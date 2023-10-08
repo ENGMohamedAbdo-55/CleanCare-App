@@ -15,7 +15,7 @@ final String img;
      decoration: BoxDecoration(
        borderRadius: BorderRadius.circular(10),
        color: AppColors.white,
-       boxShadow: [BoxShadow(color: AppColors.black.withOpacity(0.3),
+       boxShadow: [BoxShadow(color: AppColors.black.withOpacity(0.19),
        blurRadius: 7,
        )]
      ),
