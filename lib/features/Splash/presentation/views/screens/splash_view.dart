@@ -2,6 +2,7 @@ import 'dart:ffi';
 
 import 'package:cleancare_app/core/utils/app_assets.dart';
 import 'package:cleancare_app/features/Auth/presentation/views/screens/log_in_view.dart';
+import 'package:cleancare_app/features/Onboarding/presentation/views/onboarding_view.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatefulWidget {
@@ -17,7 +18,7 @@ class _SplashViewState extends State<SplashView> {
     Future.delayed(const Duration(seconds: 2), () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => const LogInView()),
+        MaterialPageRoute(builder: (context) =>  OnBoardingView()),
       );
     });
 

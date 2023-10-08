@@ -18,7 +18,7 @@ class WelcomeView extends StatelessWidget {
       Expanded(
         
         child: Container(
-        height: 350,
+        height: 280,
           decoration: BoxDecoration(
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(45),
@@ -31,7 +31,7 @@ class WelcomeView extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(
-                    height: 35,
+                    height: 30,
                   ),
                   Text(
                     'Welcome To CleanCare',

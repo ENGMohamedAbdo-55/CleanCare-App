@@ -1,19 +1,19 @@
 import 'package:cleancare_app/core/utils/app_assets.dart';
 import 'package:cleancare_app/core/utils/app_colors.dart';
-import 'package:cleancare_app/features/Auth/presentation/views/screens/log_in_view.dart';
+import 'package:cleancare_app/features/Auth/presentation/views/screens/welcome_view.dart';
 import 'package:cleancare_app/features/Onboarding/data/on_boarding_model.dart';
 import 'package:cleancare_app/features/Onboarding/presentation/widgets/custom_smoothpagee_indiactor.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingBody extends StatelessWidget {
-   OnBoardingBody({
+    OnBoardingBody({
     super.key,
   });
 
   final PageController _pageController = PageController(initialPage: 0);
 
-  int currentIndex = 0;
+   int currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -86,7 +86,7 @@ class OnBoardingBody extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const LogInView()),
+                                builder: (context) => const WelcomeView()),
                           );
                         } else {
                           _pageController.nextPage(
