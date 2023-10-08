@@ -85,6 +85,7 @@ class _LogInViewState extends State<LogInView> {
                 Row(
                   children: [
                     Checkbox(
+                      activeColor: AppColors.mainColor,
                         value: isRemembered,
                         onChanged: (val) {
                           setState(() {

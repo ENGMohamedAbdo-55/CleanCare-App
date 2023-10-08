@@ -6,11 +6,16 @@ import 'package:cleancare_app/features/Onboarding/presentation/widgets/custom_sm
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class OnBoardingBody extends StatelessWidget {
-    OnBoardingBody({
+class OnBoardingBody extends StatefulWidget {
+ const   OnBoardingBody({
     super.key,
   });
 
+  @override
+  State<OnBoardingBody> createState() => _OnBoardingBodyState();
+}
+
+class _OnBoardingBodyState extends State<OnBoardingBody> {
   final PageController _pageController = PageController(initialPage: 0);
 
    int currentIndex = 0;

@@ -1,11 +1,5 @@
-import 'package:cleancare_app/features/Auth/presentation/views/screens/foreget_pass_view.dart';
+
 import 'package:cleancare_app/features/Auth/presentation/views/screens/log_in_view.dart';
-import 'package:cleancare_app/features/Auth/presentation/views/screens/mail_verification_view.dart';
-import 'package:cleancare_app/features/Auth/presentation/views/screens/reset_pass_view.dart';
-import 'package:cleancare_app/features/Auth/presentation/views/screens/welcome_view.dart';
-import 'package:cleancare_app/features/Onboarding/presentation/views/onboarding_view.dart';
-import 'package:cleancare_app/features/Onboarding/presentation/widgets/onboarding_body.dart';
-import 'package:cleancare_app/features/Splash/presentation/views/screens/splash_view.dart';
 import 'package:flutter/material.dart';
 
 
