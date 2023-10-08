@@ -10,7 +10,10 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+   
+    
+     const MyApp());
 }
 
 class MyApp extends StatelessWidget {  
@@ -22,7 +25,7 @@ class MyApp extends StatelessWidget {
       
     debugShowCheckedModeBanner: false,
   theme: ThemeData(fontFamily: "Roboto"),
-      home:const SplashView (),
+      home:const LogInView (),
     );
   }
 }

@@ -1,9 +1,8 @@
-import 'package:cleancare_app/core/utils/app_assets.dart';
 import 'package:cleancare_app/features/Onboarding/presentation/widgets/onboarding_body.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingView extends StatefulWidget {
-   OnBoardingView({super.key});
+   const OnBoardingView({super.key});
 
   @override
   State<OnBoardingView> createState() => _OnBoardingViewState();

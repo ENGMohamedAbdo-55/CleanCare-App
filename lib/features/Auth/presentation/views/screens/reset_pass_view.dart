@@ -44,14 +44,14 @@ Image.asset(
                     ),
             ),
             const SizedBox(height: 20,),
- const Padding(
+  Padding(
    padding:  EdgeInsets.symmetric(horizontal: 30.0),
-   child: CustomTextField(hintTxt: "Password"),
+   child: CustomPassTextField(hintTxt: "Password"),
  ),
  const SizedBox(height: 15,),
- const Padding(
+  Padding(
    padding:  EdgeInsets.symmetric(horizontal: 30.0),
-   child: CustomTextField(hintTxt: "Confirm Password"),
+   child: CustomPassTextField(hintTxt: "Confirm Password"),
  ),
   const SizedBox(height: 15,),
  Padding(

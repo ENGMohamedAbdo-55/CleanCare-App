@@ -54,7 +54,7 @@ Image.asset(
                     ),
             ),
             const SizedBox(height: 27,),
- const Padding(
+  const Padding(
    padding:  EdgeInsets.symmetric(horizontal: 30.0),
    child: CustomTextField(hintTxt: "Enter Your Email"),
  ),

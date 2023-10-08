@@ -91,7 +91,7 @@ class OnBoardingBody extends StatelessWidget {
                         } else {
                           _pageController.nextPage(
                               duration: const Duration(milliseconds: 500),
-                              curve: Curves.decelerate);
+                              curve: Curves.linear);
                         }
                       },
                       backgroundColor: AppColors.mainColor,

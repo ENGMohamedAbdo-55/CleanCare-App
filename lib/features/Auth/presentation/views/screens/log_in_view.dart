@@ -65,19 +65,19 @@ class _LogInViewState extends State<LogInView> {
                 ),
               ],
             ),
-            const SizedBox(
+             const SizedBox(
               height: 30,
             ),
-            const Padding(
+             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10.0),
               child: CustomTextField(hintTxt: "email"),
             ),
             const SizedBox(
               height: 20,
             ),
-            const Padding(
+             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10.0),
-              child: CustomTextField(hintTxt: "Password"),
+              child: CustomPassTextField(hintTxt: "Password"),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
