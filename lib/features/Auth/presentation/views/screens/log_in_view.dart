@@ -27,7 +27,6 @@ class _LogInViewState extends State<LogInView> {
               Assets.logo1,
               height: 150,
               width: 50,
-           
             ),
             const Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -65,17 +64,17 @@ class _LogInViewState extends State<LogInView> {
                 ),
               ],
             ),
-             const SizedBox(
+            const SizedBox(
               height: 30,
             ),
-             const Padding(
+            const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10.0),
               child: CustomTextField(hintTxt: "email"),
             ),
             const SizedBox(
               height: 20,
             ),
-             const Padding(
+            const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10.0),
               child: CustomPassTextField(hintTxt: "Password"),
             ),
@@ -85,7 +84,7 @@ class _LogInViewState extends State<LogInView> {
                 Row(
                   children: [
                     Checkbox(
-                      activeColor: AppColors.mainColor,
+                        activeColor: AppColors.mainColor,
                         value: isRemembered,
                         onChanged: (val) {
                           setState(() {
@@ -129,7 +128,7 @@ class _LogInViewState extends State<LogInView> {
                         thickness: 1,
                       )),
                   Text(
-                    '  or log in with   ',
+                    '  or sign in with   ',
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w600,
@@ -144,7 +143,9 @@ class _LogInViewState extends State<LogInView> {
                 ],
               ),
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(
+              height: 20,
+            ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 50.0),
               child: Row(
@@ -156,8 +157,10 @@ class _LogInViewState extends State<LogInView> {
                 ],
               ),
             ),
-            const SizedBox(height: 20,),
-                   Row(
+            const SizedBox(
+              height: 20,
+            ),
+            Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(

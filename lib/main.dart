@@ -1,25 +1,19 @@
-
-import 'package:cleancare_app/features/Auth/presentation/views/screens/log_in_view.dart';
+import 'package:cleancare_app/features/Splash/presentation/views/screens/splash_view.dart';
 import 'package:flutter/material.dart';
 
-
 void main() {
-  runApp(
-   
-    
-     const MyApp());
+  runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {  
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return   MaterialApp(
-      
-    debugShowCheckedModeBanner: false,
-  theme: ThemeData(fontFamily: "Roboto"),
-      home:const LogInView (),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(fontFamily: "Roboto"),
+      home: const SplashView(),
     );
   }
 }

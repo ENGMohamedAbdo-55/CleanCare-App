@@ -7,7 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingBody extends StatefulWidget {
- const   OnBoardingBody({
+  const OnBoardingBody({
     super.key,
   });
 
@@ -18,7 +18,7 @@ class OnBoardingBody extends StatefulWidget {
 class _OnBoardingBodyState extends State<OnBoardingBody> {
   final PageController _pageController = PageController(initialPage: 0);
 
-   int currentIndex = 0;
+  int currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,6 @@ class _OnBoardingBodyState extends State<OnBoardingBody> {
       child: PageView.builder(
         physics: const BouncingScrollPhysics(),
         onPageChanged: (index) {
-        
           currentIndex = index;
         },
         controller: _pageController,

@@ -73,10 +73,10 @@ class CustomTextField extends StatelessWidget {
         decoration: InputDecoration(
             focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: AppColors.mainColor)),
-            suffixIcon:  Icon(
+            suffixIcon: Icon(
               Icons.email_outlined,
               size: 27,
-                  color: AppColors.lightGrey,
+              color: AppColors.lightGrey,
             ),
             hintText: hintTxt,
             hintStyle: TextStyle(fontSize: 20, color: AppColors.lightGrey),

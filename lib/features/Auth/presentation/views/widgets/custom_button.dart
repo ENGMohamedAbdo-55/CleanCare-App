@@ -5,13 +5,11 @@ class CustomMainButton extends StatelessWidget {
     Key? key,
     required this.color,
     required this.title,
-    
     required this.titleColor,
   }) : super(key: key);
   final Color color;
   final String title;
   final Color titleColor;
-
 
   @override
   Widget build(BuildContext context) {

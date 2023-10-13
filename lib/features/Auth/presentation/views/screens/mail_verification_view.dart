@@ -75,4 +75,3 @@ class EmailVerificationView extends StatelessWidget {
     );
   }
 }
-

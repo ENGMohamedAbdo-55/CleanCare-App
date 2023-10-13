@@ -3,23 +3,29 @@ import 'package:flutter/cupertino.dart';
 
 class LogInSocialContainer extends StatelessWidget {
   const LogInSocialContainer({
-    super.key, required this.img,
+    super.key,
+    required this.img,
   });
-final String img;
+  final String img;
   @override
   Widget build(BuildContext context) {
     return Container(
-     alignment: Alignment.center,
-     height: 55,
-     width: 55,
-     decoration: BoxDecoration(
-       borderRadius: BorderRadius.circular(10),
-       color: AppColors.white,
-       boxShadow: [BoxShadow(color: AppColors.black.withOpacity(0.19),
-       blurRadius: 7,
-       )]
-     ),
-     child: Image.asset(img,height: 30,),
+      alignment: Alignment.center,
+      height: 55,
+      width: 55,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+          color: AppColors.white,
+          boxShadow: [
+            BoxShadow(
+              color: AppColors.black.withOpacity(0.19),
+              blurRadius: 7,
+            )
+          ]),
+      child: Image.asset(
+        img,
+        height: 30,
+      ),
     );
   }
 }

@@ -26,11 +26,11 @@ class OtpItem extends StatelessWidget {
                 )
               ]),
           child: TextFormField(
-            
+            textAlign: TextAlign.center,
+            style: const TextStyle(fontSize: 50, fontWeight: FontWeight.w500),
             inputFormatters: [
               LengthLimitingTextInputFormatter(1),
               FilteringTextInputFormatter.digitsOnly
-            
             ],
             onTapOutside: (event) => FocusScope.of(context).unfocus(),
             onChanged: (val) {
@@ -38,7 +38,6 @@ class OtpItem extends StatelessWidget {
                 FocusScope.of(context).nextFocus();
               }
             },
-            
           )),
     );
   }
